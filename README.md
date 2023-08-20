@@ -10,10 +10,10 @@ The project focused on the development of a platform that bridges the gap betwee
 # Tech Stack
 The technology stack we employed for this project includes:
 
-*Front-end: React.js
-*Back-end: Express.js, Node.js
-*Database: MongoDB
-*XML Manipulation: JSX
-*Testing: Jest
-*Frontend Deployment: Netlify
-*Backend Deployment: Render
+* Front-end: React.js
+* Back-end: Express.js, Node.js
+* Database: MongoDB
+* XML Manipulation: JSX
+* Testing: Jest
+* Frontend Deployment: Netlify
+* Backend Deployment: Render
