@@ -1,0 +1,30 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search__searchbox {
+    height: 2.3em;
+    width: 85%;
+    margin-right: 0.5em;
+}
+/* .search_searchbox--searchIcon{
+    position: absolute;
+    left: 2.8em;
+    top: 6.4em;
+} */
+
+.search__filter {
+    height: 2em;
+    width: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 95%;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+
+}

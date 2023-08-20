@@ -1,0 +1,381 @@
+
+.guideOverlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+ 
+ 
+}
+
+.guideHeader {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guideHeader__btn--back {
+  margin-top: 15px;
+}
+
+
+.guideHeader__heading {
+  height: 95%;
+  width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  text-align: left;
+}
+
+.guideHeader__heading--author{
+  
+  height: 10%;
+  position: absolute;
+  top: 35%;
+}
+
+
+  .guideHeader__heading--title {
+    color:#444445;
+    
+
+    
+  }
+
+.guideHeader__img--profile {
+  height: 3.5em;
+  width: 3.5em;
+  margin-right: 1em;
+  margin-top: .7em;
+  border-radius: 50%;
+}
+
+.guideHeader__img--profile>img {
+  height: 70%;
+  width: 70%;
+
+}
+
+.guideSubHeader {
+    width: 50%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 2.3em;
+    left: 1em;
+    
+}
+
+
+.guide__img{
+  height: 37%;
+  width: 90%;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guide__img>img{
+  height: 85%;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.middleNavBar {
+  background-color: #0002FF;
+  /* height: 4em; */
+  width: 65%;
+  border-radius: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middleNavBar__btn--overview{
+  margin-left: .4em;
+
+}
+.middleNavBar__btn--reviews{
+  margin-right: .4em;
+}
+.middleNavBar button{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1em;
+}
+
+.active button  {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: product-sans-bold; 
+}
+
+.selectedPageHeading{
+  width: 90%;
+  height: 4%;
+  margin-top: .7em;
+  display: flex;
+  align-items: center;
+}
+.selectedPageHeading__title{
+  font-size: 11px;
+  text-decoration: underline;
+  color: #747475;
+}
+.guideDesc{
+  width: 90%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #cecfd178;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.guideDesc--info{
+  height: 95%;
+  width: 95%;
+}
+
+@media (min-width: 260px){
+
+  .guideOverlay {
+    margin-top: 4.5em;
+  }
+  .guideSubHeader__additionalIcons--favourite{
+   
+    margin-right: 3.5em;
+  }
+  .guide__img>img{
+    height: 75%;
+    width: 63%;
+    border-radius: 10px;
+    
+  }
+  .middleNavBar{
+    font-size: 12px;
+  }
+
+}
+@media (min-width: 450px){
+
+  .guideSubHeader__additionalIcons--favourite{
+    position: relative;
+    right: 1.5em;
+  }
+}
+
+
+
+/* Responsiveness for small screens */
+@media (min-width: 525px) {
+  .guideOverlay {
+    margin-top: 6em;
+  }
+
+  .guideHeader__heading {
+    width: 100%;
+  }
+
+  .guideHeader__heading--title {
+    height: 100%;
+  }
+
+  .guideHeader__heading--title>h5 {
+  
+    margin-left: 1em;
+  }
+
+  .guideHeader__img--profile {
+    height: 3em;
+    width: 3em;
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+  .guideSubHeader__additionalIcons--favourite{
+    position: relative;
+    right: 7em;
+    bottom: .3em;
+  }
+  .guideSubHeader {
+    
+    position: relative;
+    top: 1.5em; 
+}
+
+  .guide__img>img{
+    height: 90%;
+    width: 58%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .middleNavBar{
+    font-size: 15px;
+    padding: 2px 5px 2px 0;
+    
+  }
+
+  @media (min-width: 637px){
+
+    
+    .guide__img>img{
+      height: 90%;
+      width: 62%;
+      border-radius: 10px;
+      margin-top: 5px;
+    }
+    .guideSubHeader {
+    
+      position: relative;
+      left: 1.8em; 
+  }
+  
+  }
+
+
+}
+
+/* Responsiveness for mid screens */
+@media (min-width: 700px) {
+
+  .guideSubHeader__additionalIcons--favourite{
+    position: relative;
+    right: 8em;
+    bottom: .3em;
+  }
+
+  .middleNavBar{
+    font-size: 17px;
+    padding: 4px 5px 4px 0;
+    
+  }
+  .guide__img>img{
+    height: 90%;
+    width: 65%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .guideSubHeader {
+    
+    position: relative;
+    left: 2.5em;
+}
+
+  @media (min-width: 800px){
+      
+      .guideSubHeader__additionalIcons--favourite{
+        position: relative;
+        right: 9em;
+        bottom: .3em;
+      }
+      .guide__img>img{
+        height: 90%;
+        width: 68%;
+        border-radius: 10px;
+        margin-top: 5px;
+      }
+      .guideSubHeader {
+    
+        position: relative;
+        left: 3.7em;
+    }
+    
+  }
+
+}
+@media (min-width: 900px) {
+
+  .guideSubHeader__additionalIcons--favourite{
+    position: relative;
+    right: 10em;
+    bottom: .3em;
+  }
+
+  .guide__img>img{
+    height: 92%;
+    width: 72%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .middleNavBar{
+    width: 65%;
+  }
+  .guideSubHeader {
+    
+    position: relative;
+    left: 5.2em;
+}
+
+
+}
+
+@media (min-width: 1000px) {
+  .guideSubHeader__additionalIcons--favourite {
+    position: relative;
+    right: 13.5em;
+    bottom: .3em;
+  }
+
+  .guideSubHeader{
+    width: 45%;
+  }
+
+  .guide__img > img {
+    height: 92%;
+    width: 75%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .middleNavBar {
+    width: 65%;
+  }
+  .guideSubHeader {
+    
+    position: relative;
+    left: 8em;
+}
+}
+
+@media (min-width: 1100px) {
+  .guideSubHeader__additionalIcons--favourite {
+    position: relative;
+    right: 15em;
+    bottom: .3em;
+  }
+
+  .guide__img > img {
+    height: 90%;
+    width: 75%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .middleNavBar {
+    width: 65%;
+  }
+}
+@media (min-width: 1200px) {
+
+  .guide__img > img {
+    height: 90%;
+    width: 920px;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  .middleNavBar {
+    width: 65%;
+  }
+  .guideSubHeader {
+    
+    position: relative;
+    left: 10em;
+}
+}
+
+
+
+
+
+

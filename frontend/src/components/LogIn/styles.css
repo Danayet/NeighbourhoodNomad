@@ -1,0 +1,296 @@
+.login_overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1527998257557-0c18b22fa4cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9saWRheXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+.header__title{
+   position: relative;
+   text-align: center;
+   left: 0;
+    font-family: Product-Sans;
+}
+.header{
+    
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .6em;
+    
+}
+.header>h1{
+    margin-bottom: 1px;
+    font-family: Product-Sans;
+    font-size:40px;
+    text-align: center;
+    
+}    
+
+.header__img--logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.01em;
+  }
+
+.login_container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.login_container__title{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    
+}
+.login_container__title>h3 {
+    font-family: Product-Sans;
+}
+
+.login_container__formcontainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_container__form{
+    width: 95%;
+    height: 70%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5em;
+
+}
+
+.login_container__form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login_container__form > form > input {
+    width: 62%;
+    height: 18%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 42px;
+    margin-bottom: 1em;
+    
+    
+}
+.login_container__form > form > button{
+    width: 19em;
+    height: 3em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 42px;
+    margin-top: .5em;
+    background-color: #0002FF;
+    color: white;
+    border: 1px solid transparent;
+}
+.login_container__signup_container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h4{
+    position: absolute;
+    bottom: 65%;
+}
+.login_container__signup_container button{
+    width: 19em;
+    height: 3em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 42px;
+    /* margin-top: .5em; */
+    background-color: #0002FF;
+    color: white;
+    border: 1px solid transparent;
+    position: relative;
+    bottom: 35%;
+}
+
+
+
+@media (min-width: 833px) {
+    .header>h1{
+              font-size: 50px;
+              font-family: Product-Sans;
+              text-align: center;
+              flex-direction: column; /* Added this line */
+            }
+            
+    .logo__image{
+    width: 14em;
+    height: 14em;
+
+    } 
+    .login_container__form > form > input{
+        width: 50%;
+        height: 18%;
+        padding: 13px;
+    }
+    .login_container__signup_container button{
+        width: 22em;
+        height: 3em;
+        padding: 10px;
+       
+    }
+    .login_container__form > form > button{
+        width: 22em;
+        height: 3em;
+        padding: 10px;
+       
+    }
+}
+
+
+@media (min-width: 1050px){
+
+    .login_container__form > form > input{
+        width: 561px;
+    
+        
+    }
+
+
+}
+
+@media (min-width: 1500px) {
+    .header>h1{
+              font-size: 70px;
+            }
+            
+    .logo__image{
+    width: 15em;
+    height: 15em;
+
+    } 
+    .login_container>h3{
+        font-size: 1.5em;
+    }
+    .login_container__form > form > input{
+        width: 561px;
+        height: 18%;
+        padding: 13px;
+    }
+    .login_container__signup_container button{
+        width: 24em;
+        height: 3.1em;
+        padding: 11px;
+       
+  
+    }
+    .login_container__signup_container h4{
+        font-size: 1.3em;
+        position: relative;
+        top: .2em;
+    }
+    .login_container__form > form > button{
+        width: 24em;
+        height: 3.3em;
+        padding: 11px;
+        position: relative;
+        top: .2em;
+       
+    }
+}
+@media (min-width: 2000px) {
+    .header>h1{
+              font-size: 85px;
+            }
+            
+    .logo__image{
+    width: 17em;
+    height: 17em;
+
+    } 
+    .login_container>h3{
+        font-size: 1.7em;
+    }
+    .login_container__form > form > input{
+        width: 50%;
+        height: 18%;
+        padding: 15px;
+    }
+    .login_container__signup_container button{
+        width: 26em;
+        height: 3.1em;
+        padding: 11px;
+       
+  
+    }
+    .login_container__signup_container h4{
+        font-size: 1.3em;
+        position: relative;
+        top: .2em;
+    }
+    .login_container__form > form > button{
+        width: 26em;
+        height: 3.4em;
+        padding: 11px;
+        position: relative;
+        top: .2em;
+       
+    }
+}
+@media (min-height: 1050px){
+
+    .login_container__signup_container button{
+        position: relative;
+        bottom: 5.5em;
+  
+    }
+    .login_container__signup_container h4{
+        font-size: 1.3em;
+        position: relative;
+        top: -2.5em;
+    }
+    
+}
+@media (max-height: 683px){
+    .login_container__signup_container>h4{
+        position: relative;
+        top: .1em;
+    }
+
+}
+@media (max-height: 650px){
+    .login_container__signup_container>h4{
+        position: relative;
+        top: .1em;
+    }
+
+}
+
+
+  
+ 
+  
