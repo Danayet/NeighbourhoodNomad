@@ -7,7 +7,7 @@ Welcome to the NeighbourhoodNomad project! This project was developed as part of
 The project focused on the development of a platform that bridges the gap between travelers and locals by providing curated guides based on users' interests. From conceptualization and research to planning, development, and deployment, we utilized a MERN stack (MongoDB, Express, React, and Node.js) to bring this idea to life.
 
 
-#Tech Stack
+* Tech Stack
 The technology stack we employed for this project includes:
 
 Front-end: React.js
